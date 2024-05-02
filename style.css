@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    margin:auto;
+    text-align: center;
+    background-color: white;
+}
+.content{
+    background-color: gainsboro;
+    height: 100%;
+    padding:30px;
+
+}
+.public{
+    background-color: white;
+    width: 400px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px;
+   
+}
+.img{
+    width:400px;
+    height: 250px;
+    overflow: hidden;
+}
+.img img{
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+}
+.text{
+    padding:0px 5px;
+    text-align: justify;
+}
